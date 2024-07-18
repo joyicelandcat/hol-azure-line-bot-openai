@@ -65,10 +65,10 @@ namespace Functions
             // 以下のコメントアウトをはずす
             // var prompt = firstEvent.Message.Text;
             // var client = new OpenAIClient(
-            //     new Uri(Environment.GetEnvironmentVariable("AZURE_OPENAI_API_URL")),
-            //     new AzureKeyCredential(Environment.GetEnvironmentVariable("AZURE_OPENAI_API_KEY")));
+            //     new Uri(Environment.GetEnvironmentVariable("https://joyicelandcatlinegpt.openai.azure.com/")),
+            //     new AzureKeyCredential(Environment.GetEnvironmentVariable("4e4cc3735b86473da0c4fa5106883184")));
             // var responseWithoutStream = await client.GetChatCompletionsAsync(
-            //     Environment.GetEnvironmentVariable("AZURE_OPENAI_API_MODEL_NAME"),
+            //     Environment.GetEnvironmentVariable("gpt-handson"),
             //     new ChatCompletionsOptions()
             //     {
             //         Messages =
